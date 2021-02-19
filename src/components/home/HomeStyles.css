@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  background-color: rgb(247, 249, 252);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+.header{
+    background-color: #FFFFFF;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LeftMenu{
+  height: 100vh;
+  width: 250px;
+  background-color: #FFF;
+}
+
+.rightMenu{
+  flex: 2;
+  height: 100vh;
+  background-color: #F8F8FA;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.logoTitle{
+  font-size: 30px;
+  color: #59B2F4;
+  margin-top: 10px;
+}
+
+.lenguaje{
+  font-size: 10px;
+    color: #797979 ;
+}
+
+.imgFlag{
+    height: 15px;
+}
+
+.imgLogout{
+    height: 15px;
+    margin-left: 10px;
+}
+
+.imgSearch{
+    height: 18px;
+    width: 18px;
+}
+
+.inputSearch {
+    padding: 10px;
+    border: none;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
