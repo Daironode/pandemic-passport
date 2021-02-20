@@ -6,7 +6,6 @@ import MenuLeft from '../utils/menuLeft'
 import Header from '../utils/header'
 
 class MapView extends Component {
-
   render() {
     return (
         <div>
