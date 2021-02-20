@@ -3,11 +3,6 @@ import './MenuLeftstyles.css';
 import circle from '../../img/circle.png'
 
 export default class MenuLeft extends Component {
-    constructor(props) {
-        super(props);
-
-    }
-
     render = () =>
         <div className="LeftMenu">
 
@@ -29,7 +24,6 @@ export default class MenuLeft extends Component {
             </div>
 
         </div>
-
 }
 
 

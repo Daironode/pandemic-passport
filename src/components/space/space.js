@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Home extends Component {
+export default class Spaces extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -9,13 +9,15 @@ export default class Home extends Component {
     }
 
     render = () => {
-        <div>
-            <div className="title">
-                Space
-            </div>
-            <div className="body">
+        return (
+            <div>
+                <div className="title">
+                    Space
+                </div>
+                <div className="body">
 
+                </div>
             </div>
-        </div>
+        )
     }
 }
