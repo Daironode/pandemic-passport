@@ -19,7 +19,9 @@ export default class Header extends Component {
                 <div className="inputGroup">
                     <img src={logo} alt="alt" className="imgFlag"/>
                     <span className="lenguaje">English</span>
-                    <img src={logout} alt="alt" className="imgLogout"/>
+                    <a href="/" >
+                        <img src={logout} alt="alt" className="imgLogout"/>
+                    </a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,71 @@
+.video-responsive {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video-responsive { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-responsive { width: 300%; left: -100%; }
+}
+
+.imgLogoLogin{
+    height: 90px;
+    margin: 20px;
+}
+
+.form {
+    padding: 20px;
+    background-color: rgba(148, 188, 255, 0.5);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+    top: 20vh;
+    left: 35%;
+}
+
+.text {
+    font-size: 20px;
+    color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputForm {
+    height: 35px;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+.button {
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: #59b2f4;
+    color: #fff;
+}

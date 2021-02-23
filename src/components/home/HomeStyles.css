@@ -54,6 +54,10 @@
     width: 18px;
 }
 
+.imgLogo{
+    height: 50px;
+}
+
 .inputSearch {
     padding: 10px;
     border: none;
