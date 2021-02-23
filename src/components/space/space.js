@@ -27,12 +27,12 @@ export default class Spaces extends Component {
                         <div className="contentRow">
 
                             <div className="group">
-                                <label className="labelInput">Document Identification</label>
+                                <label className="labelInput">Name Space</label>
                                 <input type="text" name=" " id="space" className="input"/>
                             </div>
 
                             <div className="group">
-                                <label className="labelInput">Name Space</label>
+                                <label className="labelInput">Document Identification</label>
                                 <input type="text" name=" " id="space" className="input"/>
                             </div>
 
@@ -41,12 +41,16 @@ export default class Spaces extends Component {
                         <div className="contentRow">
 
                             <div className="group">
-                                <label className="labelInput">Document Identification</label>
+                                <label className="labelInput">Company Segments</label>
                                 <input type="text" name=" " id="space" className="input"/>
                             </div>
 
                             <div className="group">
-                                <label className="labelInput">Name Space</label>
+                                <label className="labelInput">Country</label>
+                                <input type="text" name=" " id="space" className="input"/>
+                            </div>
+                            <div className="group">
+                                <label className="labelInput">Country</label>
                                 <input type="text" name=" " id="space" className="input"/>
                             </div>
 

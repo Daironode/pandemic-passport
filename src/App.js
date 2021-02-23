@@ -4,6 +4,7 @@ import Home from '../src/components/home/home';
 import MapView from '../src/components/map/mapView';
 import Auth from "./components/auth/login";
 import Spaces from "./components/space/space";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
